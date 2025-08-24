@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Development Portfolio | Project Navigator</title>
+    <title>Become Software Engineer - Alwisteins's Portfolio</title>
     <meta
       name="description"
       content=" This portfolio is a trace of my progress in studying programming in the first semester
       until I became a software engineer🚀" />
-    <meta name="author" content="Developer Portfolio" />
+    <meta name="author" content="Alwisteins" />
     <meta
       name="keywords"
       content="web development, HTML, CSS, Tailwind, Bootstrap, portfolio, projects, frontend" />
 
-    <meta property="og:title" content="Development Portfolio | Project Navigator" />
+    <meta property="og:title" content="Become Software Engineer - Alwisteins's Portfolio" />
     <meta
       property="og:description"
       content="This portfolio is a trace of my progress in studying programming in the first semester
@@ -36,7 +36,7 @@
       <nav class="flex items-center gap-12">
         <h1 class="font-black text-xl">Alwisteins</h1>
         <ul class="flex gap-6 w-full">
-          <li><a href="#">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#">Experience</a></li>
           <li><a href="#">Achievement</a></li>
           <li><a href="#">Blog</a></li>
@@ -47,14 +47,13 @@
 
     <!-- Hero Section -->
     <section class="h-screen">
+      <!-- gradient -->
       <div class="">
         <div
           class="-z-10 absolute left-1/3 top-24 pointer-events-none w-[32rem] h-[24rem] rounded-full blur-3xl opacity-50 bg-emerald-600"></div>
         <div
           class="-z-10 absolute left-1/4 top-24 pointer-events-none w-[24rem] h-[16rem] rounded-full blur-3xl opacity-70 bg-lime-300"></div>
       </div>
-
-      <!-- Overlay Noise -->
       <div
         class="-z-10 absolute inset-0 pointer-events-none mix-blend-overlay"
         style="
@@ -72,717 +71,70 @@
         <div class="flex items-center justify-center gap-4 pt-6">
           <button
             class="bg-white border text-neutral-900 font-semibold py-3 px-5 rounded-lg flex items-center gap-2">
-            Github
+            <a href="https://github.com/Alwisteins">Github</a>
           </button>
-          <button
-            class="bg-neutral-900 text-white font-semibold py-3 px-5 rounded-lg flex items-center gap-2">
-            See my projects
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="size-5">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-            </svg>
+          <button class="bg-neutral-900 text-white font-semibold py-3 px-5 rounded-lg">
+            <a href="#projects" class="flex items-center gap-2">
+              See my projects
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg
+            ></a>
           </button>
         </div>
       </div>
     </section>
 
-    <!-- Projects Sections -->
-    <div class="max-w-7xl mx-auto px-6 py-16 space-y-20">
-      <!-- HTML & CSS Section -->
-      <section class="space-y-6">
-        <div class="text-center space-y-3 animate-fade-in">
-          <div class="flex items-center justify-center gap-3">
-            <div class="text-4xl">🎨</div>
-            <h2 class="text-3xl font-bold bg-gradient-text">HTML & CSS</h2>
-          </div>
-          <p class="max-w-2xl mx-auto leading-relaxed" style="color: hsl(240 5% 64.9%)">
-            Foundational web development projects using pure HTML and CSS, focusing on semantic
-            markup, responsive design, and modern styling techniques.
-          </p>
-          <div class="h-1 w-20 mx-auto gradient-html rounded-full"></div>
+    <!-- Projects Section -->
+    <div
+      id="projects"
+      class="min-h-screen h-fit flex flex-col justify-center items-center gap-6 w-full px-12 py-4">
+      <h2 class="text-3xl font-bold">Projects</h2>
+      <div class="w-full bg-white shadow-lg rounded-xl">
+        <!-- Tab Buttons -->
+        <div class="flex border-b">
+          <button
+            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
+            data-tab="1">
+            HTML & CSS
+          </button>
+          <button
+            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
+            data-tab="2">
+            Tailwind CSS
+          </button>
+          <button
+            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
+            data-tab="3">
+            Bootstrap
+          </button>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Mini Project 1 -->
-          <div class="opacity-0 animate-slide-up animate-delay-100">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-html"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🎨</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Mini Project 1
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          HTML/CSS
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- FolderOpen Icon -->
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  A foundational HTML and CSS project showcasing core web development skills and
-                  responsive design principles.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(12 76% 61%)"></div>
-                    HTML/CSS Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <!-- ExternalLink Icon -->
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Weekly Project -->
-          <div class="opacity-0 animate-slide-up animate-delay-200">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-html"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🎨</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Weekly Project
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          HTML/CSS
-                        </span>
-                        <span
-                          class="text-xs px-2 py-1 rounded border"
-                          style="border-color: hsl(346 77% 49.8% / 0.5); color: hsl(346 77% 49.8%)">
-                          Weekly Project
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Comprehensive weekly assignment demonstrating advanced HTML/CSS techniques and
-                  modern layout methods.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(12 76% 61%)"></div>
-                    HTML/CSS Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <!-- Tab Content -->
+        <div class="p-4">
+          <div
+            id="tab-1"
+            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+          <div
+            id="tab-2"
+            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+          <div
+            id="tab-3"
+            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
         </div>
-      </section>
-
-      <!-- Tailwind CSS Section -->
-      <section class="space-y-6">
-        <div class="text-center space-y-3 animate-fade-in">
-          <div class="flex items-center justify-center gap-3">
-            <div class="text-4xl">🌊</div>
-            <h2 class="text-3xl font-bold bg-gradient-text">Tailwind CSS</h2>
-          </div>
-          <p class="max-w-2xl mx-auto leading-relaxed" style="color: hsl(240 5% 64.9%)">
-            Utility-first CSS framework projects showcasing rapid development, component-based
-            design, and modern responsive layouts.
-          </p>
-          <div class="h-1 w-20 mx-auto gradient-tailwind rounded-full"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Mini Project 5 -->
-          <div class="opacity-0 animate-slide-up animate-delay-300">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-tailwind"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🌊</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Mini Project 5
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Tailwind
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Modern component-based design using Tailwind CSS utility classes for rapid UI
-                  development.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(198 93% 60%)"></div>
-                    Tailwind Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Weekly Project -->
-          <div class="opacity-0 animate-slide-up animate-delay-400">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-tailwind"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🌊</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Weekly Project
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Tailwind
-                        </span>
-                        <span
-                          class="text-xs px-2 py-1 rounded border"
-                          style="border-color: hsl(346 77% 49.8% / 0.5); color: hsl(346 77% 49.8%)">
-                          Weekly Project
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Full-scale weekly project leveraging Tailwind's powerful utility system for
-                  complex layouts.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(198 93% 60%)"></div>
-                    Tailwind Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Bootstrap Section -->
-      <section class="space-y-6">
-        <div class="text-center space-y-3 animate-fade-in">
-          <div class="flex items-center justify-center gap-3">
-            <div class="text-4xl">🅱️</div>
-            <h2 class="text-3xl font-bold bg-gradient-text">Bootstrap</h2>
-          </div>
-          <p class="max-w-2xl mx-auto leading-relaxed" style="color: hsl(240 5% 64.9%)">
-            Component library and grid system projects demonstrating responsive design patterns and
-            professional UI development with Bootstrap framework.
-          </p>
-          <div class="h-1 w-20 mx-auto gradient-bootstrap rounded-full"></div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Mini Project 1 -->
-          <div class="opacity-0 animate-slide-up animate-delay-100">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-bootstrap"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🅱️</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Mini Project 1
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Bootstrap
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Introduction to Bootstrap framework with responsive grid system and component
-                  library.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(262 83% 58%)"></div>
-                    Bootstrap Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mini Project 2 -->
-          <div class="opacity-0 animate-slide-up animate-delay-200">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-bootstrap"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🅱️</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Mini Project 2
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Bootstrap
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Advanced Bootstrap components and customization techniques for professional web
-                  development.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(262 83% 58%)"></div>
-                    Bootstrap Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mini Project 3 -->
-          <div class="opacity-0 animate-slide-up animate-delay-300">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-bootstrap"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🅱️</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Mini Project 3
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Bootstrap
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Complex Bootstrap layouts with custom themes and advanced component
-                  configurations.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(262 83% 58%)"></div>
-                    Bootstrap Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slicing Project -->
-          <div class="opacity-0 animate-slide-up animate-delay-400">
-            <div
-              class="project-card relative overflow-hidden gradient-card border rounded-xl card-shadow"
-              style="border-color: hsl(240 3.7% 15.9% / 0.5)">
-              <div class="card-gradient absolute inset-0 gradient-bootstrap"></div>
-
-              <div class="relative p-6 space-y-4">
-                <div class="flex items-start justify-between">
-                  <div class="flex items-center gap-3">
-                    <div class="text-2xl">🅱️</div>
-                    <div>
-                      <h3
-                        class="project-title font-semibold text-lg transition-colors"
-                        style="color: hsl(0 0% 98%)">
-                        Slicing Project
-                      </h3>
-                      <div class="flex items-center gap-2 mt-1">
-                        <span
-                          class="text-xs px-2 py-1 rounded"
-                          style="background-color: hsl(240 3.7% 15.9%); color: hsl(0 0% 98%)">
-                          Bootstrap
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <svg
-                    class="project-icon h-5 w-5 transition-colors"
-                    style="color: hsl(240 5% 64.9%)"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-                  </svg>
-                </div>
-
-                <p class="text-sm leading-relaxed" style="color: hsl(240 5% 64.9%)">
-                  Pixel-perfect conversion from design mockups to responsive Bootstrap layouts.
-                </p>
-
-                <div class="flex items-center justify-between pt-2">
-                  <div class="flex items-center gap-2 text-xs" style="color: hsl(240 5% 64.9%)">
-                    <div
-                      class="w-2 h-2 rounded-full"
-                      style="background-color: hsl(262 83% 58%)"></div>
-                    Bootstrap Project
-                  </div>
-
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-sm font-medium transition-colors"
-                    style="color: hsl(346 77% 49.8%)">
-                    View Project
-                    <svg
-                      class="external-link h-3 w-3 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24">
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
 
     <!-- Footer -->
-    <footer
-      class="border-t"
-      style="
-        border-color: hsl(240 3.7% 15.9% / 0.5);
-        background-color: hsl(240 10% 3.9% / 0.5);
-        backdrop-filter: blur(12px);
-      ">
+    <footer class="border-t mt-12 bg-neutral-900 backdrop-blur-sm">
       <div class="max-w-7xl mx-auto px-6 py-8 text-center">
         <div class="flex items-center justify-center gap-2" style="color: hsl(240 5% 64.9%)">
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -796,5 +148,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>
