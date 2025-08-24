@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="p-4 px-6 sm:px-24 border-b border-b-gray-300 sticky top-0 bg-white">
+      <nav class="container flex justify-between items-center">
+        <div class="flex gap-12">
+          <div class="flex items-center gap-3">
+            <img src="./images/logo.svg" alt="Logo" class="w-6 sm:w-8" />
+            <h1 class="font-bold sm:text-xl uppercase">Steinstech</h1>
+          </div>
+          <input type="checkbox" id="menu-toggle" class="hidden peer" />
+          <div
+            class="hidden peer-checked:flex peer-checked:flex-col peer-checked:absolute peer-checked:top-16 peer-checked:left-0 peer-checked:w-full peer-checked:bg-white peer-checked:shadow-md md:flex md:items-center md:space-x-0 md:left-auto md:w-auto md:bg-transparent md:shadow-none">
+            <a
+              href="#"
+              class="block py-2 px-4 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500"
+              >Produk</a
+            >
+            <a
+              href="#"
+              class="block py-2 px-4 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500"
+              >Software</a
+            >
+            <a
+              href="#"
+              class="block py-2 px-4 text-gray-700 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-sky-500"
+              >Planet</a
+            >
+          </div>
+        </div>
+        <div class="flex gap-6">
+          <a href="/wishlist"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+            </svg>
+          </a>
+          <a href="/profile"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+          </a>
+
+          <label for="menu-toggle" class="md:hidden cursor-pointer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="black"
+              class="size-5">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <div class="py-12 container flex flex-col-reverse md:flex-row justify-center items-center">
+      <div class="text-center sm:w-1/4 md:text-right">
+        <h3 class="text-lg sm:text-2xl font-medium">Logitech M275</h3>
+        <h1 class="text-2xl sm:text-4xl my-3 md:text-4xl font-semibold text-gray-800 leading-tight">
+          Mouse Berkualitas, Harga Bersahabat
+        </h1>
+        <p class="sm:text-lg text-gray-800">Rp 210.000 - 280.000</p>
+        <a
+          href="#"
+          class="mt-4 sm:mt-8 inline-block bg-[#00FDCF] sm:text-lg rounded-4xl px-8 py-3 hover:text-white transition duration-700"
+          >Pelajari selengkapnya</a
+        >
+      </div>
+      <div>
+        <img src="./images/product.png" alt="Product" class="rounded-lg w-80 sm:w-[32rem]" />
+      </div>
+    </div>
+
+    <footer class="bg-[#EEEEEE] border-t border-t-gray-300">
+      <div class="container mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-12">
+        <!-- Brand -->
+        <div>
+          <div class="flex items-center gap-3">
+            <img src="./images/logo.svg" alt="Logo" class="h-10" />
+            <h1 class="font-bold uppercase text-lg">Steinstech</h1>
+          </div>
+          <p class="text-sm mt-5 text-gray-600 leading-relaxed">
+            Menyediakan solusi gadget berkualitas untuk pekerjaan eksklusifmu.
+          </p>
+        </div>
+
+        <!-- Menu -->
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-4">Produk</h3>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li><a href="#" class="hover:text-sky-600 transition">Mouse</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">Keyboard</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">Headset</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">Aksesoris</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-4">Dukungan</h3>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li><a href="#" class="hover:text-sky-600 transition">Bantuan</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">FAQ</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">Kebijakan Privasi</a></li>
+            <li><a href="#" class="hover:text-sky-600 transition">Syarat & Ketentuan</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="font-semibold text-gray-800 mb-4">Kontak</h3>
+          <ul class="space-y-3 text-sm text-gray-600">
+            <li>📍 Jakarta, Indonesia</li>
+            <li>📧 support@steinstech.com</li>
+            <li>📞 +62 812-3456-7890</li>
+          </ul>
+          <div class="flex gap-4 mt-4">
+            <a href="#" class="text-gray-500 hover:text-sky-600 transition">🌐</a>
+            <a href="#" class="text-gray-500 hover:text-sky-600 transition">🐦</a>
+            <a href="#" class="text-gray-500 hover:text-sky-600 transition">📘</a>
+            <a href="#" class="text-gray-500 hover:text-sky-600 transition">📸</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="border-t mt-12 border-t-gray-300">
+        <div
+          class="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+          <p>© 2025 Steinstech. All rights reserved.</p>
+          <p>Made with ❤️ by Steinstech Team</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
