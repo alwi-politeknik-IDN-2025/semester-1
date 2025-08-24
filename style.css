@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+/* body {
+  background-color: hsl(240 10% 3.9%);
+  color: hsl(0 0% 98%);
+} */
+
+.gradient-hero {
+  background: linear-gradient(135deg, hsl(346 77% 49.8%), hsl(262 83% 58%));
+}
+
+.gradient-card {
+  background: linear-gradient(145deg, hsl(240 3.7% 15.9%), hsl(240 10% 3.9%));
+}
+
+.gradient-html {
+  background: linear-gradient(135deg, hsl(12 76% 61%), hsl(25 95% 53%));
+}
+
+.gradient-tailwind {
+  background: linear-gradient(135deg, hsl(198 93% 60%), hsl(212 100% 48%));
+}
+
+.gradient-bootstrap {
+  background: linear-gradient(135deg, hsl(262 83% 58%), hsl(268 71% 50%));
+}
+
+.card-shadow {
+  box-shadow: 0 8px 32px hsl(240 10% 3.9% / 0.3);
+}
+
+.card-hover-shadow {
+  box-shadow: 0 20px 40px hsl(346 77% 49.8% / 0.2);
+}
+
+.project-card {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+  border-color: hsl(346 77% 49.8% / 0.5);
+  transform: translateY(-4px);
+}
+
+.project-card:hover .card-gradient {
+  opacity: 0.1;
+}
+
+.project-card:hover .project-title {
+  color: hsl(346 77% 49.8%);
+}
+
+.project-card:hover .project-icon {
+  color: hsl(346 77% 49.8%);
+}
+
+.project-card:hover .external-link {
+  transform: translate(2px, -2px);
+}
+
+.card-gradient {
+  opacity: 0.05;
+  transition: opacity 0.5s ease;
+}
+
+.bg-gradient-text {
+  background: linear-gradient(to right, hsl(0 0% 98%), hsl(240 5% 64.9%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient-hero-text {
+  background: linear-gradient(to right, hsl(0 0% 98%), hsl(346 77% 49.8%), hsl(12 76% 61%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+.animate-delay-400 {
+  animation-delay: 400ms;
+}
+.animate-delay-500 {
+  animation-delay: 500ms;
+}
+.animate-delay-600 {
+  animation-delay: 600ms;
+}
