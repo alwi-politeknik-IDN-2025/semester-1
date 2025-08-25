@@ -94,41 +94,87 @@
     </section>
 
     <!-- Projects Section -->
-    <div
-      id="projects"
-      class="min-h-screen h-fit flex flex-col justify-center items-center gap-6 w-full px-12 py-4">
-      <h2 class="text-3xl font-bold">Projects</h2>
-      <div class="w-full bg-white shadow-lg rounded-xl">
-        <!-- Tab Buttons -->
-        <div class="flex border-b">
-          <button
-            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
-            data-tab="1">
-            HTML & CSS
-          </button>
-          <button
-            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
-            data-tab="2">
-            Tailwind CSS
-          </button>
-          <button
-            class="tab-btn flex-1 py-3 text-center font-medium text-gray-600 border-b-2 border-transparent hover:text-indigo-600"
-            data-tab="3">
-            Bootstrap
-          </button>
+    <div class="flex justify-center items-center flex-col">
+      <h2 class="text-3xl font-bold mb-2">Projects</h2>
+      <p class="text-neutral-600">
+        have a loot at my project that i create while learning the topic
+      </p>
+      <div
+        class="text-white text-center mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-12">
+        <div
+          class="h-64 md:h-48 bg-neutral-800 flex flex-col justify-between p-6 rounded-lg animate-slide-up animate-delay-${(i + 1) * 100}">
+          <div class="space-y-3">
+            <h3 class="text-xl font-semibold">HTML & CSS</h3>
+            <p>Week 1: List Project of HTML & CSS.</p>
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="z-10 border-2 bg-white text-neutral-900 py-2 px-4 rounded-lg w-fit cursor-pointer">
+              <a href="/1-html-&-css/index.html" class="flex items-center gap-2">
+                View Project
+                <svg
+                  class="external-link h-3 w-3 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg
+              ></a>
+            </button>
+          </div>
         </div>
-
-        <!-- Tab Content -->
-        <div class="p-4">
-          <div
-            id="tab-1"
-            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-          <div
-            id="tab-2"
-            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-          <div
-            id="tab-3"
-            class="tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        <div
+          class="h-64 md:h-48 bg-neutral-800 flex flex-col justify-between p-6 rounded-lg animate-slide-up animate-delay-${(i + 1) * 100}">
+          <div class="space-y-3">
+            <h3 class="text-xl font-semibold">Tailwind</h3>
+            <p>Week 2: List Project of Tailwind.</p>
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="z-10 border-2 bg-white text-neutral-900 py-2 px-4 rounded-lg w-fit cursor-pointer">
+              <a href="/2-tailwind/index.html" class="flex items-center gap-2">
+                View Project
+                <svg
+                  class="external-link h-3 w-3 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div
+          class="h-64 md:h-48 bg-neutral-800 flex flex-col justify-between p-6 rounded-lg animate-slide-up animate-delay-${(i + 1) * 100}">
+          <div class="space-y-3">
+            <h3 class="text-xl font-semibold">Boostrap</h3>
+            <p>Week 3: List Project of Boostrap.</p>
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="z-10 border-2 bg-white text-neutral-900 py-2 px-4 rounded-lg w-fit cursor-pointer">
+              <a href="/3-bootstrap/index.html" class="flex items-center gap-2">
+                View Project
+                <svg
+                  class="external-link h-3 w-3 transition-transform"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg
+              ></a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -148,7 +194,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="./main.js"></script>
   </body>
 </html>

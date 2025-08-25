@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../tailwind-config.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="m-12">
+    <button class="bg-neutral-900 text-white font-semibold py-3 px-5 rounded-lg">
+      <a href="/index.html" class="flex items-center gap-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+        Back
+      </a>
+    </button>
+    <div class="flex flex-col justify-center gap-12 mt-12">
+      <div class="text-center">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-900">
+          Tailwind Projects
+        </h1>
+        <p class="md:text-lg lg:text-xl text-neutral-600 mt-5 font-medium">
+          List of Tailwind Projects (Mini Projects & Final Projects)
+        </p>
+      </div>
+      <div id="projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+
+    <script src="./projects.js" type="module"></script>
+  </body>
+</html>
