@@ -26,7 +26,7 @@ const projects = [
       desc: "A foundational HTML and CSS project showcasing core web development skills and responsive design principles.",
       tag: "Mini Project 1",
       lesson: "Introduction",
-      link: "/1-html-&-css/mini-project-1/index.html",
+      link: "/semester-1/1-html-&-css/mini-project-1/index.html",
     },
     {
       title: "Online Courses",
@@ -34,7 +34,7 @@ const projects = [
       desc: "Comprehensive weekly assignment demonstrating advanced HTML/CSS techniques and modern layout methods.",
       tag: "Weekly project",
       lesson: "Summaries",
-      link: "/1-html-&-css/weekly-project/index.html",
+      link: "/semester-1/1-html-&-css/weekly-project/index.html",
     },
   ],
   [
@@ -44,7 +44,7 @@ const projects = [
       desc: "Modern component-based design using Tailwind CSS utility classes for rapid UI development.",
       tag: "Mini Project 5",
       lesson: "Modern UI Component",
-      link: "/2-tailwind/mini-project-5/src/index.html",
+      link: "/semester-1/2-tailwind/mini-project-5/src/index.html",
     },
     {
       title: "Fully Responsive Landing Page",
@@ -52,7 +52,7 @@ const projects = [
       desc: "Full-scale weekly project leveraging Tailwind's powerful utility system for complex layouts.",
       tag: "Weekly Project",
       lesson: "Summaries",
-      link: "/2-tailwind/weekly-project/index.html",
+      link: "/semester-1/2-tailwind/weekly-project/index.html",
     },
   ],
   [
@@ -62,7 +62,7 @@ const projects = [
       desc: "Introduction to Bootstrap framework with responsive grid system and component library.",
       tag: "Mini Project 1",
       lesson: "Introduction & Bootstrap Setup",
-      link: "/3-bootstrap/mini-project-1/index.html",
+      link: "/semester-1/3-bootstrap/mini-project-1/index.html",
     },
     {
       title: "Random Foto Generator",
@@ -70,7 +70,7 @@ const projects = [
       desc: "Advanced Bootstrap components and customization techniques for professional web development.",
       tag: "Mini Project 2",
       lesson: "Grid System & Layout",
-      link: "/3-bootstrap/mini-project-2/index.html",
+      link: "/semester-1/3-bootstrap/mini-project-2/index.html",
     },
     {
       title: "Biodata Page",
@@ -78,7 +78,7 @@ const projects = [
       desc: "Complex Bootstrap layouts with custom themes and advanced component configurations.",
       tag: "Mini Project 3",
       lesson: "Basic Component",
-      link: "/3-bootstrap/mini-project-3/index.html",
+      link: "/semester-1/3-bootstrap/mini-project-3/index.html",
     },
     {
       title: "Laracamp Landing page",
@@ -86,7 +86,7 @@ const projects = [
       desc: "Pixel-perfect conversion from design mockups to responsive Bootstrap layouts.",
       tag: "Slicing Project",
       lesson: "-",
-      link: "/3-bootstrap/slicing/index.html",
+      link: "/semester-1/3-bootstrap/slicing/index.html",
     },
   ],
 ];
