@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+      }
+
+      h1 {
+        margin-bottom: 30px;
+      }
+
+      /* Flexbox untuk galeri */
+      .gallery {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px; /* Flexbox gap */
+      }
+
+      /* Box Model + inline-block */
+      .card {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px; /* box model padding */
+        width: 200px;
+        display: inline-block; /* card tetap block tapi inline sejajar */
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 5px;
+        display: block; /* gambar jadi block supaya tidak ada whitespace */
+      }
+
+      .desc {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>📷 Simple Gallery</h1>
+    <div class="gallery">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="https://picsum.photos/200/150?random=1" alt="Gallery Image 1" />
+        <p class="desc">Beautiful Landscape 1</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="https://picsum.photos/200/150?random=2" alt="Gallery Image 2" />
+        <p class="desc">Beautiful Landscape 2</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="https://picsum.photos/200/150?random=3" alt="Gallery Image 3" />
+        <p class="desc">Beautiful Landscape 3</p>
+      </div>
+    </div>
+  </body>
+</html>

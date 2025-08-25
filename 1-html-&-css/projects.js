@@ -25,7 +25,30 @@ const projects = [
     lesson: "Form + Table",
     link: "/semester-1/1-html-&-css/mini-project-3/index.html",
   },
-
+  {
+    title: "Styled Biodata Page",
+    emoji: "🎨",
+    desc: "A personal profile page enhanced with basic CSS styling techniques, demonstrating the use of colors, backgrounds, and text formatting for a cleaner layout.",
+    tag: "Mini Project 4",
+    lesson: "Basic CSS & Styling Page",
+    link: "/semester-1/1-html-&-css/mini-project-4/index.html",
+  },
+  {
+    title: "Gallery Page",
+    emoji: "🎨",
+    desc: "A simple gallery website built using the CSS box model and flexbox layout, showcasing multiple images aligned with descriptions underneath.",
+    tag: "Mini Project 5",
+    lesson: "Box Model + Layouting with Flexbox",
+    link: "/semester-1/1-html-&-css/mini-project-5/index.html",
+  },
+  {
+    title: "AI SaaS Landing Page",
+    emoji: "🎨",
+    desc: "A responsive one-page landing site for an AI SaaS product, featuring sections like Hero, Features, Gallery, and Contact, designed using media queries and flexible layouts.",
+    tag: "Mini Project 6",
+    lesson: "Responsive Design + Media Queries",
+    link: "/semester-1/1-html-&-css/mini-project-6/index.html",
+  },
   {
     title: "Online Courses",
     emoji: "🎨",
