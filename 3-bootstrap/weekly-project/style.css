@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: black;
+  margin-inline: 10px;
+  font-weight: 500;
+}
+
+.search {
+  width: 70%;
+  margin-right: -26px;
+  padding-right: 6px;
+  border: 2px solid #f81a5c;
+  border-radius: 24px;
+  outline: none;
+}
+
+.btn {
+  border-radius: 24px;
+}
+
+form > button:hover {
+  background-color: #f81a5c;
+}
+
+.main {
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  padding-inline: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow: 2px 2px #000000;
+}
+
+.main .btn {
+  margin-top: 6px;
+  width: fit-content;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.categories .img-container div {
+  text-align: center;
+}
+
+.categories .img-container div:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-container div img {
+  height: 250px;
+  width: 300px;
+  border-radius: 32px;
+  object-fit: cover; /* Biar gambar terpotong rapi tanpa distorsi */
+  object-position: center; /* Fokus di tengah */
+}
+
+.categories .img-container div p {
+  position: relative;
+  top: -50%;
+  color: #fff;
+  font-weight: 900;
+  font-size: 32px;
+  text-shadow: 2px 2px #000;
+}
+
+.trending {
+  overflow-x: hidden;
+}
+
+.trending .title p {
+  color: #f81a5c;
+  font-size: 20px;
+}
+
+.trending .img-container div {
+  width: fit-content;
+  background-color: #fff8fa;
+  border-radius: 12px;
+}
+
+.trending .img-container div:hover {
+  box-shadow: 6px 6px #deb1c0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trending .img-container div p {
+  color: #000;
+}
+
+.trending .img-container div .fruit-name {
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.trending .btn {
+  width: fit-content;
+  padding: 12px 32px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.welcome {
+  height: fit-content;
+  margin-top: 64px;
+  overflow-x: hidden;
+}
+
+.welcome .title p {
+  color: #f81a5c;
+  font-size: 20px;
+}
+
+.welcome .img-container div img {
+  height: 60%;
+  border-radius: 32px;
+  object-fit: cover; /* Biar gambar terpotong rapi tanpa distorsi */
+  object-position: center; /* Fokus di tengah */
+}
+
+.welcome .img-container div p {
+  color: #000;
+}
+
+.welcome .img-container div .title-bg {
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.cta {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/fruit-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.cta h1 {
+  font-weight: 900;
+}
+
+.cta p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.cta .btn {
+  width: fit-content;
+  padding: 12px 32px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contact-subtitle {
+  color: red;
+  font-weight: 500;
+}
+
+.contact .btn {
+  width: fit-content;
+  padding: 12px 32px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 60px 0 20px 0;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-form input[type="email"] {
+  border: 2px solid white;
+  border-right: none;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+  padding: 10px;
+}
+
+.footer-form input::placeholder {
+  color: #bbb;
+}
+
+.footer-form button {
+  border: 2px solid white;
+  border-left: none;
+  border-radius: 0;
+  background: white;
+  color: black;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.footer-form button:hover {
+  background: #f81a5c;
+  color: white;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f81a5c;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: #aaa;
+}
