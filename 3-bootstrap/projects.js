@@ -26,6 +26,14 @@ const projects = [
     link: "/semester-1/3-bootstrap/mini-project-3/index.html",
   },
   {
+    title: "E-Commerce Landing Page",
+    emoji: "🅱️",
+    desc: "Build a responsive e-commerce landing page with Bootstrap: hero, product grid, CTA, testimonials, and footer.",
+    tag: "Weekly Project",
+    lesson: "Summaries",
+    link: "/semester-1/3-bootstrap/weekly-project/index.html",
+  },
+  {
     title: "Laracamp Landing page",
     emoji: "🅱️",
     desc: "Pixel-perfect conversion from design mockups to responsive Bootstrap layouts.",
